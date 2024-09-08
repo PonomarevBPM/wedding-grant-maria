@@ -6,8 +6,8 @@ import { Inspiration } from '../pages/Inspiration';
 import { Location } from '../pages/Location';
 import { NamedStatement } from '../pages/NamedStatement';
 import { Programm } from '../pages/Programm';
-import { RefsForMen } from '../pages/RefsForMen';
-import { RefsForWomen } from '../pages/RefsForWomen';
+// import { RefsForMen } from '../pages/RefsForMen';
+// import { RefsForWomen } from '../pages/RefsForWomen';
 
 function App() {
   return (
