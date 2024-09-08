@@ -12,9 +12,9 @@ export default ({ mode }: any) => defineConfig({
     alias: {
       'I#':
                     mode === 'production'
-                      ? 'https://wedding-dinner.ru/DA/dist/'
+                      ? 'https://wedding-dinner.ru/GM/dist/'
                       : 'http://localhos:5174/',
     },
   },
-  base: mode === 'production' ? '/DA/dist/' : '/',
+  base: mode === 'production' ? '/GM/dist/' : '/',
 });

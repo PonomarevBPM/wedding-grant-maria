@@ -77,8 +77,9 @@ const useStyles = createUseStyles((theme: Theme) => ({
     position: 'absolute',
     zIndex: '-1',
     right: '-20%',
-    top: '330%',
-    width: 110,
+    top: '350%',
+    width: 120,
+    transform: 'rotate(30deg)',
   },
   radioLabel: {
     display: 'inline-block',
@@ -160,11 +161,11 @@ export function FinalForm() {
         <span className={classes.formSmallHeading}>
           пожалуйста, заполните данную
           <br />
-          форму до 05.08.2024
+          форму до 15.09.2024
         </span>
         <Form
           onSubmit={async ({ formData }) => {
-            await fetch('https://sheetdb.io/api/v1/rpih4e17e16ru', {
+            await fetch('https://sheetdb.io/api/v1/emb8osx0jswxu', {
               method: 'POST',
               body: formData,
             }).then(() => {

@@ -18,8 +18,8 @@ function App() {
       <Programm />
       <Location />
       <DressCode />
-      <RefsForWomen />
-      <RefsForMen />
+      {/* <RefsForWomen />
+      <RefsForMen /> */}
       <Details />
       <FinalForm />
     </>

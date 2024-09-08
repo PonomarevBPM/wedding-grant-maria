@@ -31,26 +31,30 @@ export function Details() {
       <div className={classes.detailsContainer}>
         <span className={classes.detailsHeading}>детали</span>
         <span className={classes.detailsText}>
-          Мы будем рады любому подарку,
+          Если вы желаете поздравить нас
           <br />
-          но предпочтение отдадим конверту
+          по случаю праздника, мы будем благодарны
+          <br />
+          денежным подаркам и обещаем
+          <br />
+          найти им лучшее применение
         </span>
         <img
           src={`${import.meta.env.BASE_URL}imgs/details/letter.JPG`}
           style={{ width: 100 }}
         />
         <span className={classes.detailsText}>
-          Не стоит дарить нам цветы. В качестве
+          Приятным комплиментом для нас
           <br />
-          альтернативы, мы бы с удовольствием
+          вместо цветов будет бутылочка вашего
           <br />
-          приняли ваше хорошее настроение,
+          любимого вина, которую мы
           <br />
-          комнатное растение или бутылку вина
+          откроем на ближайшем празднике
         </span>
         <img
           src={`${import.meta.env.BASE_URL}imgs/details/flower.jpg`}
-          style={{ width: 150 }}
+          style={{ width: 90, marginBottom: 5 }}
         />
         <span className={classes.detailsText}>
           По всем вопросам Вы можете обращаться

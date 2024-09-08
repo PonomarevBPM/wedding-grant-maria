@@ -37,10 +37,10 @@ const useStyles = createUseStyles((theme: Theme) => ({
     aspectRatio: 1,
     width: 100,
     position: 'absolute',
-    top: '-150%',
+    top: '-90%',
     left: '85%',
     zIndex: -1,
-    transform: 'rotate(0)',
+    transform: 'rotate(240deg)',
   },
 }));
 

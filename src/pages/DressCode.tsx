@@ -62,15 +62,17 @@ export function DressCode() {
   return (
     <AnimatedBaseLayout>
       <div className={classes.dressCodeContainer}>
-        <span className={classes.dressCodeHeading}>Dress code</span>
+        <span className={classes.dressCodeHeading}>
+          Wedding palette
+        </span>
         <span className={classes.dressCodeText}>
           мы очень старались сделать наш праздник
           <br />
-          красивым, поэтому для нас важно видеть
+          красивым, поэтому рады с вами поделиться
           <br />
-          гостей в цветовой ПАЛИТРЕ нашего
+          цветами нашей свадьбы! Их можно учесть
           <br />
-          мероприятия
+          при выборе ваших образов
         </span>
         {/* <span className={classes.dressCodeText}>
           Просим воздержаться от таких цветов,
@@ -82,25 +84,31 @@ export function DressCode() {
             imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color1.JPG`}
             className={classes.blackColor}
           >
-            Бежевый
+            Нежно-голубой
           </ColorRef>
           <ColorRef
             imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color2.JPG`}
             className={classes.whiteColor}
           >
-            Персиковый
+            Травяной
           </ColorRef>
           <ColorRef
             imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color3.JPG`}
             className={classes.blackColor}
           >
-            Охра
+            Пыльно розовый
           </ColorRef>
           <ColorRef
             imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color4.JPG`}
             className={classes.whiteColor}
           >
-            Зеленый
+            Кофе с молоком
+          </ColorRef>
+          <ColorRef
+            imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color5.JPG`}
+            className={classes.blackColor}
+          >
+            Жемчужный
           </ColorRef>
         </div>
       </div>
