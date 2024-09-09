@@ -205,7 +205,7 @@ export function FinalForm() {
               </label>
             </div>
 
-            <div
+            {/* <div
               className={classes.radioInput}
               onClick={() => methods.setValue(
                 'presence',
@@ -221,7 +221,7 @@ export function FinalForm() {
               <label className={classes.radioLabel}>
                 скажем / скажу позже
               </label>
-            </div>
+            </div> */}
 
             <div
               className={classes.radioInput}
@@ -254,7 +254,6 @@ export function FinalForm() {
               options={[
                 'Игристое',
                 'Вино',
-                'Пиво',
                 'Водка',
                 'Виски',
                 'Джин',
