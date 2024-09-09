@@ -1,11 +1,10 @@
 import { createUseStyles } from 'react-jss';
-import { useForm, Form, FormProvider } from 'react-hook-form';
+import { useForm, Form } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useState } from 'react';
 import { Theme } from '../styles/theme';
 import { AnimatedBaseLayout } from '../components/AnimatedBaseLayout';
-import { CheckBoxGroup } from '../components/CheckboxGroup';
 
 const useStyles = createUseStyles((theme: Theme) => ({
   formWrapper: {
