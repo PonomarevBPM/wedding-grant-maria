@@ -12,6 +12,7 @@ const useStyles = createUseStyles((theme: Theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     marginTop: 60,
+    overflow: 'hidden',
   },
   statementNames: {
     fontFamily: theme.font.rammillas,
@@ -34,13 +35,18 @@ const useStyles = createUseStyles((theme: Theme) => ({
     marginBottom: 60,
   },
   pin: {
-    aspectRatio: 1,
     width: 100,
+    height: 100,
     position: 'absolute',
     top: '-90%',
     left: '85%',
     zIndex: -1,
     transform: 'rotate(240deg)',
+    overflow: 'hidden',
+  },
+  pic: {
+    aspectRatio: 1,
+    width: 100,
   },
 }));
 
@@ -58,10 +64,12 @@ export function NamedStatement() {
         </span>
         <span className={classes.timerHeading}>
           ДО СВАДЬБЫ ОСТАЛОСЬ
-          <img
-            src={`${import.meta.env.BASE_URL}imgs/namedStatement/timer_detail.png`}
-            className={classes.pin}
-          />
+          <div className={classes.pin}>
+            <img
+              src={`${import.meta.env.BASE_URL}imgs/namedStatement/timer_detail.png`}
+              className={classes.pic}
+            />
+          </div>
         </span>
         <Timer />
       </div>
