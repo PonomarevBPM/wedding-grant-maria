@@ -96,7 +96,7 @@ export function DressCode() {
             imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color3.JPG`}
             className={classes.blackColor}
           >
-            Пыльно розовый
+            Пыльно-розовый
           </ColorRef>
           <ColorRef
             imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color4.JPG`}
