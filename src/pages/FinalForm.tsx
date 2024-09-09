@@ -241,21 +241,22 @@ export function FinalForm() {
               </label>
             </div>
           </div>
-
+          {/*
           <label className={classes.radioInputLabel}>
             Предпочтения по напиткам:
             <img
               className={classes.decoration}
               src={`${import.meta.env.BASE_URL}imgs/finalForm/decoaretion.JPG`}
             />
-          </label>
-          <FormProvider {...methods}>
+          </label> */}
+          {/* <FormProvider {...methods}>
             <CheckBoxGroup
               options={[
                 'Игристое',
                 'Вино',
                 'Водка',
                 'Виски',
+                'Пиво',
                 'Джин',
                 'Ром',
                 'Что-то безалкогольное',
@@ -263,7 +264,7 @@ export function FinalForm() {
               {...methods.register('alcohol')}
               name="alcohol"
             />
-          </FormProvider>
+          </FormProvider> */}
 
           {success || localStorage.getItem('Submited') === 'true' ? (
             <span className={classes.successMessage}>
