@@ -274,7 +274,6 @@ export function FinalForm() {
             </button>
           )}
           {(methods.formState.errors.name
-                        || methods.formState.errors.alcohol
                         || methods.formState.errors.presence) && (
                         <p className={classes.error}>
                           Необходимо ответить на все вопросы!
