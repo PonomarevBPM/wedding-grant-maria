@@ -140,7 +140,6 @@ const useStyles = createUseStyles((theme: Theme) => ({
 const validationShema = yup.object({
   name: yup.string().required(),
   presence: yup.string().required(),
-  alcohol: yup.string().trim().required(),
 });
 
 export function FinalForm() {
